@@ -1,6 +1,7 @@
 # sentiment analysis demo
 # ! pip install transformers 
 # ! pip install gradio 
+# ! pip install torch
 # https://huggingface.co/matthewburke/korean_sentiment 모델 사용 
 from transformers import pipeline 
 import gradio as gr 
